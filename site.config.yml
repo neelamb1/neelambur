@@ -11,9 +11,9 @@ site:
   repository: neelamb1/neelambur
   # Set the publication title and public author profile here. Until then the repository owner is shown.
   name: "neelamb1"
-  author: "Anand R"
+  author: "Neelambur"
   authorProfile:
-    displayName: "Anand R"
+    displayName: "Neelambur"
     bio: unavailable
     avatarUrl: "https://rathnas.com/assets/about-CI7NNzQp.jpg"
     profileUrl: "https://rathnas.com/about"
