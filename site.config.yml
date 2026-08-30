@@ -26,8 +26,8 @@ site:
 hosting:
   provider: github-pages
   topology: provider-default
-  canonicalBaseUrl: https://neelamb1.github.io
-  pathPrefix: /neelambur
+  canonicalBaseUrl: https://blog.neelambur.com
+  pathPrefix: /
   canonicalPolicy: self
 design:
   theme: editorial
