@@ -1,4 +1,5 @@
 ---
+id: 01M1A5A23DZF0ZKK7Y4RBK5Z3H
 title: Example post
 publishAfterDate: 2026-08-10
 language: en
