@@ -30,8 +30,9 @@ hosting:
   pathPrefix: /
   canonicalPolicy: self
 design:
-  theme: editorial
+  theme: modern
   colorMode: system
+  accent: #263c35
 sharing:
   targets: []
   socialProfiles: {}
