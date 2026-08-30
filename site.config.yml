@@ -6,9 +6,9 @@ framework:
     name: "@rathnasgala/theme"
     version: 2.0.23
 site:
-  id: unavailable
-  ownerId: unavailable
-  repository: unavailable
+  id: 01M1A59CZN7KGQEV2F3FM2HV6D
+  ownerId: 01M0P330RNRHMGMMZ4D3E9JT8B
+  repository: neelamb1/neelambur
   # Set the publication title and public author profile here. Until then the repository owner is shown.
   name: "neelamb1"
   author: unavailable
@@ -26,8 +26,8 @@ site:
 hosting:
   provider: github-pages
   topology: provider-default
-  canonicalBaseUrl: unavailable
-  pathPrefix: /unavailable
+  canonicalBaseUrl: https://neelamb1.github.io
+  pathPrefix: /neelambur
   canonicalPolicy: self
 design:
   theme: editorial
