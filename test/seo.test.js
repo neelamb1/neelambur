@@ -272,3 +272,50 @@ test('uses authored descriptions and text-only cards while falling back from aut
   assert.equal(seo.dateModified, '2026-06-10');
   assert.equal('image' in seo.blogPosting, false);
 });
+
+test('represents an explicitly organizational article author as an Organization', () => {
+  const seo = postSeo({
+    site: {
+      site: {
+        name: 'Neelambur Blog',
+        author: 'Default Person',
+        publisher: { name: 'Neelambur', url: 'https://neelambur.com/' }
+      },
+      hosting: { canonicalBaseUrl: 'https://blog.neelambur.com', pathPrefix: '/' }
+    },
+    renderedHtml: '<p>Article body.</p>',
+    post: {
+      language: 'ta',
+      pageUrl: 'https://blog.neelambur.com/ta/article/',
+      frontmatter: {
+        title: 'Article',
+        author: 'நீலாம்பூர்',
+        authorType: 'Organization',
+        authorUrl: 'https://neelambur.com/',
+        publishAfterDate: '2026-07-14'
+      }
+    }
+  });
+
+  assert.deepEqual(seo.blogPosting.author, {
+    '@type': 'Organization',
+    name: 'நீலாம்பூர்',
+    url: 'https://neelambur.com/'
+  });
+
+  assert.throws(() => postSeo({
+    site: {
+      site: { name: 'Neelambur Blog' },
+      hosting: { canonicalBaseUrl: 'https://blog.neelambur.com', pathPrefix: '/' }
+    },
+    renderedHtml: '<p>Article body.</p>',
+    post: {
+      language: 'en',
+      pageUrl: 'https://blog.neelambur.com/en/article/',
+      frontmatter: {
+        title: 'Article', author: 'Unknown', authorType: 'Business',
+        publishAfterDate: '2026-07-14'
+      }
+    }
+  }), /authorType must be Organization or Person/);
+});

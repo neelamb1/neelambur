@@ -10,7 +10,7 @@ site:
   ownerId: 01M0P330RNRHMGMMZ4D3E9JT8B
   repository: neelamb1/neelambur
   # Set the publication title and public author profile here. Until then the repository owner is shown.
-  name: "neelamb1"
+  name: "Neelambur.com Blog"
   author: "Neelambur"
   authorProfile:
     displayName: "Neelambur"
@@ -18,7 +18,7 @@ site:
     avatarUrl: "https://rathnas.com/assets/about-CI7NNzQp.jpg"
     profileUrl: "https://rathnas.com/about"
   publisher:
-    name: "Neelambur"
+    name: "Neelambur.com"
     url: "https://neelambur.com/"
     logoUrl: "https://neelambur.com/logo/logo_256.png"
   defaultLanguage: en
@@ -32,7 +32,7 @@ hosting:
 design:
   theme: modern
   colorMode: system
-  accent: #263c35
+  accent: "#263c35"
 sharing:
   targets: []
   socialProfiles: {}
@@ -58,4 +58,4 @@ performance:
   budgets:
     managedJavaScriptBytes: 76339
     managedCssBytes: 34816
-    ordinaryHtmlBytes: 32768
+    ordinaryHtmlBytes: 65536

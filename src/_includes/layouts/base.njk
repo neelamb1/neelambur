@@ -7,8 +7,9 @@
     <script>{{ themeBootstrap | safe }}</script>
     {% if prismBootstrap %}<script>{{ prismBootstrap | safe }}</script>{% endif %}
     <title>{{ post.frontmatter.title or title }} · {{ site.site.name }}</title>
-    {% if post %}<link rel="canonical" href="{{ post.canonicalUrl }}">{% endif %}
+    {% if post %}<link rel="canonical" href="{{ post.canonicalUrl }}">{% elif pageCanonical %}<link rel="canonical" href="{{ pageCanonical }}">{% endif %}
     {% for alternate in hreflangLinks %}<link rel="alternate" hreflang="{{ alternate.hreflang }}" href="{{ alternate.href }}">{% endfor %}
+    {% for alternate in pageHreflangLinks %}<link rel="alternate" hreflang="{{ alternate.hreflang }}" href="{{ alternate.href }}">{% endfor %}
     {% for feed in feedLinks %}<link rel="alternate" type="application/atom+xml" hreflang="{{ feed.language }}" title="{{ feed.title }}" href="{{ feed.href }}">{% endfor %}
     {% if seo %}
     <meta name="description" content="{{ seo.description }}">
