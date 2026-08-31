@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "refreshedAt": "2026-08-31T15:09:14.001538312Z",
+  "refreshedAt": "2026-08-31T23:27:26.275213299Z",
   "articles": {
     "01M1AHW1M82PW6KMFM9EYNGVF7": {
       "reactions": 0,
@@ -41,8 +41,8 @@
     "01M1AHVWD6DSZBT8SD1SF8PMAZ": {
       "reactions": 0,
       "comments": 0,
-      "views": 0,
-      "activeReadingSeconds": 0
+      "views": 1,
+      "activeReadingSeconds": 27
     },
     "01M1AHVVEQJ930YJMNKMBNSCPB": {
       "reactions": 0,
