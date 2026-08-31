@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "themePackage": {
     "name": "@rathnasgala/theme",
-    "version": "2.0.24",
+    "version": "2.0.25",
     "availableDesignThemes": [
       "editorial",
       "modern",
@@ -28,9 +28,9 @@
     "lib/provider-fixtures/share-intents.v1.json": "66a8eedfcff711253ee45ceb94b53f7d5a6be3ddbbb3d1f0d4e31a114326cc0a",
     "lib/publication-state.js": "1b59c29a18bbb1193bddea898dac3a4fb832c7bc4751263be086f3d64392dea0",
     "lib/render-markdown.js": "275b7da721aef1f68cda515673153471c0d597061e8fdf867c5f2b32c98b91db",
-    "lib/seo.js": "59aa832da740f71e6f5ff4eac61915972867cd47e9ed6c56a8aaab33010fe1cf",
+    "lib/seo.js": "523763e49a06e1dd995adb6cc3d78997796cb02e237ec72b5565076475e48c93",
     "lib/share-targets.js": "458aff86fab2b62a364442cd8c612565c6e0b53eef2f20cb6237cc562b1e0731",
-    "lib/site-config.js": "e646e031b46a1f8d71ea3afce8cca45d31e65d7b39cbdac10ab5c62934dfbf7e",
+    "lib/site-config.js": "7bd1e7b0205154cccad9ce6e18b94d7acafc320b2cfb83415ba6576fd0beb676",
     "package-lock.json": "dc11470b1ad897c58d91745f23ff25711c593e62972ec9fb83f4e10fd77e1ecd",
     "package.json": "7a3c2b559054b1613d84cbda3a1fd370bc725818f9f418f0fe90cf3f8f0a9caa",
     "scripts/build-reader.js": "743194c8dc9cfb9b6631db1732b5f36a92e3a4f905a2965c71d56e1ef50c2e45",
@@ -41,7 +41,7 @@
     "src/_data/languages.js": "1358748f7fa2f74406d3295a030827d6229a53e94da72cf712e719d7a356aeac",
     "src/_data/site.js": "41e60190d22337321d480a29be9774eaa93a98b848e92b5139129ae97c44fd97",
     "src/_includes/components/ui.njk": "497e441e8fec258457a9d9f581a5970785da5f9892c697664b6049f8ce24a3c9",
-    "src/_includes/layouts/base.njk": "4675b7e185d845b06c4f5988fbfca8ad8b720a5dae262406686f23068d5fd227",
+    "src/_includes/layouts/base.njk": "6c0582aa2c1cf5e3b7714ec4537aac3e07167563dfb4cc60ad95d08afd73d6f2",
     "src/_includes/layouts/post.njk": "ac47f710540c4f68722fa9079322e124e6d0cdd54afb302accc836e2da28ed19",
     "src/_includes/layouts/prism-configuration.njk": "c984441ac50465eb6ee0e050c68c054e3a0bca98960fb92fb2f5795443301594",
     "src/404.njk": "5e8f0bbbe6617a82216788eda22ec94762b654afbf567970a2813460698b53ce",
@@ -72,11 +72,11 @@
     "src/redirects.11ty.js": "3c163246a59f5364861db6a6f05ae88afc938a5379d86cf42776d8d49b0031f3",
     "src/search-index.11ty.js": "700dc2a2be0ef20de3a828a4612fcf7a082691eade29c6e1d75f09c24b6c6024",
     "src/search.njk": "9423fa330ef0a4c856f8ddfc94a0ecb6becfd2f68fd2239b8dcbcdc1f83e245d",
-    "src/sitemap.11ty.js": "ddc281bbd9eb66f00a237f76af8388f27b98119c11d442c5e60d5ef85bf6dd56",
+    "src/sitemap.11ty.js": "4f233e94fb4a913ad5659116518432ed264984a7b622eba3558c77b4ec6435dc",
     "src/styles/theme.css": "6645b17184625a33b75955f5a83668773ece10233ad828e8663e18b92e2197dd",
     "src/version.njk": "c0833dcf14a246c069903d35f8be92d410935b968a26346af237bc1392c88340",
     "static/favicon.ico": "ad3cb0b02f0164f3af6280d0bfe712879d55cec0e9a7a567f658aaddca5a55a2",
-    "static/robots.txt": "f944c247f768200d6847d0c31a415a6a5041477bbfaa06395cb5ba2a7f9850e2"
+    "static/robots.txt": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95"
   },
   "artifactSources": {
     ".gitignore": ".gala/artifact-files/gitignore"
