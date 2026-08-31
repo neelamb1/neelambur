@@ -1,9 +1,142 @@
 schemaVersion: 1
-deployedCommitSha: 3d7a054b61dea687f845d1581114592a2a826fed
+deployedCommitSha: 5e66988f17a39b44299d1492e089623d6833c70f
 posts:
   - id: 01M1A5A23DZF0ZKK7Y4RBK5Z3H
     slug: example
     languages:
       en:
         firstPublishedOn: 2026-08-30
+  - id: 01M1AHVB8YW0DBMRF1AXJE1SY6
+    slug: colleges-and-educational-institutions-near-neelambur
+    languages:
+      en:
+        firstPublishedOn: 2026-08-31
+      ta:
+        firstPublishedOn: 2026-08-31
+  - id: 01M1AHVC8RJW9PNFM7MSDMSZ81
+    slug: finding-daily-needs-near-neelambur
+    languages:
+      en:
+        firstPublishedOn: 2026-08-31
+      ta:
+        firstPublishedOn: 2026-08-31
+  - id: 01M1AHVFHFZ07CTNEGPW1PKQ76
+    slug: finding-rentals-near-neelambur-checklist
+    languages:
+      en:
+        firstPublishedOn: 2026-08-31
+      ta:
+        firstPublishedOn: 2026-08-31
+  - id: 01M1AHVGGNJPT1VWNF0HKY6QSN
+    slug: finding-repair-services-near-neelambur
+    languages:
+      en:
+        firstPublishedOn: 2026-08-31
+      ta:
+        firstPublishedOn: 2026-08-31
+  - id: 01M1AHVHES3DK5YRVXQFSE7X7X
+    slug: finding-restaurants-and-food-near-neelambur
+    languages:
+      en:
+        firstPublishedOn: 2026-08-31
+      ta:
+        firstPublishedOn: 2026-08-31
+  - id: 01M1AHVJD8RH204QN6SG4B63DZ
+    slug: hospitals-and-emergency-care-near-neelambur
+    languages:
+      en:
+        firstPublishedOn: 2026-08-31
+      ta:
+        firstPublishedOn: 2026-08-31
+  - id: 01M1AHVKCC9RMV8C4RK5DBK3A2
+    slug: how-to-share-a-local-job-opening-safely
+    languages:
+      en:
+        firstPublishedOn: 2026-08-31
+      ta:
+        firstPublishedOn: 2026-08-31
+  - id: 01M1AHVM9VT6CFY7CSSMBXV7EV
+    slug: main-routes-from-neelambur-to-coimbatore
+    languages:
+      en:
+        firstPublishedOn: 2026-08-31
+      ta:
+        firstPublishedOn: 2026-08-31
+  - id: 01M1AHVN7NAPA0YMM87ENJNV7X
+    slug: neelambur-com-starts-here
+    languages:
+      en:
+        firstPublishedOn: 2026-08-31
+      ta:
+        firstPublishedOn: 2026-08-31
+  - id: 01M1AHVQ6BEH82MJQSTWBZV3KZ
+    slug: neelambur-pin-code-and-address-guide
+    languages:
+      en:
+        firstPublishedOn: 2026-08-31
+      ta:
+        firstPublishedOn: 2026-08-31
+  - id: 01M1AHVSH00BSDQA2A3E75RWYB
+    slug: reaching-neelambur-from-airport-and-railway-station
+    languages:
+      en:
+        firstPublishedOn: 2026-08-31
+      ta:
+        firstPublishedOn: 2026-08-31
+  - id: 01M1AHVTG3661Y3QNZM5JXZ9BK
+    slug: report-wrong-or-unsafe-local-information
+    languages:
+      en:
+        firstPublishedOn: 2026-08-31
+      ta:
+        firstPublishedOn: 2026-08-31
+  - id: 01M1AHVVEQJ930YJMNKMBNSCPB
+    slug: semmozhi-poonga-trip-from-neelambur
+    languages:
+      en:
+        firstPublishedOn: 2026-08-31
+      ta:
+        firstPublishedOn: 2026-08-31
+  - id: 01M1AHVWD6DSZBT8SD1SF8PMAZ
+    slug: shop-owners-keep-contact-details-updated
+    languages:
+      en:
+        firstPublishedOn: 2026-08-31
+      ta:
+        firstPublishedOn: 2026-08-31
+  - id: 01M1AHVXB7JDXVHJ8YBHDC4P9D
+    slug: street-dog-problems-practical-local-action
+    languages:
+      en:
+        firstPublishedOn: 2026-08-31
+      ta:
+        firstPublishedOn: 2026-08-31
+  - id: 01M1AHVY9EF2GGQKKJRSPXZS7Z
+    slug: suggest-missing-place-neelambur
+    languages:
+      en:
+        firstPublishedOn: 2026-08-31
+      ta:
+        firstPublishedOn: 2026-08-31
+  - id: 01M1AHVZ83D5P4321MCK3WF6E9
+    slug: useful-neelambur-directory-listing
+    languages:
+      en:
+        firstPublishedOn: 2026-08-31
+      ta:
+        firstPublishedOn: 2026-08-31
+  - id: 01M1AHW1M82PW6KMFM9EYNGVF7
+    slug: what-makes-a-good-local-classified-ad
+    languages:
+      en:
+        firstPublishedOn: 2026-08-31
+      ta:
+        firstPublishedOn: 2026-08-31
+  - id: 01M1AHW31YB92HF51SSEVW6P6Z
+    slug: why-neelambur-needs-a-local-directory
+    languages:
+      en:
+        firstPublishedOn: 2026-08-31
+      ta:
+        firstPublishedOn: 2026-08-31
 configurations: []
