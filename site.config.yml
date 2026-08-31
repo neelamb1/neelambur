@@ -59,3 +59,5 @@ performance:
     managedJavaScriptBytes: 76339
     managedCssBytes: 34816
     ordinaryHtmlBytes: 65536
+pagination:
+  pageSize: 12
