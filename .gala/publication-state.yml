@@ -1,5 +1,5 @@
 schemaVersion: 1
-deployedCommitSha: 5e66988f17a39b44299d1492e089623d6833c70f
+deployedCommitSha: 0b7aead90adf15da8b01ddb91e8873f666d52bf6
 posts:
   - id: 01M1A5A23DZF0ZKK7Y4RBK5Z3H
     slug: example
@@ -20,6 +20,13 @@ posts:
         firstPublishedOn: 2026-08-31
       ta:
         firstPublishedOn: 2026-08-31
+  - id: 01M1AHVEFGYAPTJQWFZDBDBBCW
+    slug: finding-jobs-near-neelambur-and-coimbatore
+    languages:
+      en:
+        firstPublishedOn: 2026-09-02
+      ta:
+        firstPublishedOn: 2026-09-02
   - id: 01M1AHVFHFZ07CTNEGPW1PKQ76
     slug: finding-rentals-near-neelambur-checklist
     languages:
